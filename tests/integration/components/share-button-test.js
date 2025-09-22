@@ -86,6 +86,6 @@ module('Integration | Component | share-button', function (hooks) {
       .dom('a')
       .hasAttribute('target', '_blank')
       .hasAttribute('rel', 'external nofollow noopener noreferrer')
-      .hasAttribute('href', /^https:\/\/twitter\.com\/intent\/tweet/);  
+      .hasAttribute('href', /^https:\/\/twitter\.com\/intent\/tweet/);
   });
 });
