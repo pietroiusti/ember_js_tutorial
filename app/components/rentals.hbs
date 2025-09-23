@@ -1,0 +1,14 @@
+<div class="rentals">
+  <form>
+    <label>
+      <span>Where would you like to stay?</span>
+      <input class="light" />
+    </label>
+  </form>
+
+  <ul class="results">
+    {{#each @rentals as |rental|}}
+      <li><Rental @rental={{rental}} /></li>
+    {{/each}}
+  </ul>
+</div>
